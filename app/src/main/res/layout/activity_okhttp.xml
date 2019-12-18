@@ -9,23 +9,79 @@
     android:gravity="center_horizontal"
     tools:context=".activity.OkhttpActivity">
 
-    <Button
-        android:id="@+id/get"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="get请求"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/post"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="post请求"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:hint="请求结果"/>
+            <Button
+                android:id="@+id/syncget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同步get请求"/>
+
+            <TextView
+                android:id="@+id/result1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:hint="请求结果"/>
+
+            <Button
+                android:id="@+id/asyncget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="异步get请求"/>
+            <TextView
+                android:id="@+id/result2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:hint="请求结果"/>
+            <Button
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="post请求"/>
+
+            <TextView
+                android:id="@+id/result3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:hint="请求结果"/>
+            <Button
+                android:id="@+id/egget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="示例get请求"/>
+
+            <TextView
+                android:id="@+id/result4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:hint="请求结果"/>
+
+            <Button
+                android:id="@+id/egpost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="示例post请求"/>
+
+            <TextView
+                android:id="@+id/result5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:hint="请求结果"/>
+        </LinearLayout>
+    </ScrollView>
+
 
 </LinearLayout>
