@@ -1,4 +1,4 @@
-package com.wulianwang.lsp.fragment;
+package com.example.demo.fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.wulianwang.lsp.R;
+import com.example.demo.R;
 
 public class AppleFragment extends Fragment {
 

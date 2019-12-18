@@ -1,4 +1,4 @@
-package com.wulianwang.lsp.fragment;
+package com.example.demo.fragment;
 
 
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.wulianwang.lsp.R;
+import com.example.demo.R;
 
 public class AndroidFragment extends Fragment {
 
