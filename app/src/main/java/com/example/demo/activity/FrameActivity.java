@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.RadioButton;
 
 import com.example.demo.R;
-import com.wulianwang.lsp.fragment.AndroidFragment;
-import com.wulianwang.lsp.fragment.AppleFragment;
+import com.example.demo.fragment.AndroidFragment;
+import com.example.demo.fragment.AppleFragment;
 
 public class FrameActivity extends AppCompatActivity implements View.OnClickListener {
 

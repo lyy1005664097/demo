@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -50,6 +51,7 @@ public class BannerActivity extends AppCompatActivity {
 
     private void initView(){
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
         final TextView title = findViewById(R.id.title);
         Banner banner = findViewById(R.id.banner);
         banner.setDelayTime(2000)
@@ -80,6 +82,8 @@ public class BannerActivity extends AppCompatActivity {
                 })
                 .start();
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
